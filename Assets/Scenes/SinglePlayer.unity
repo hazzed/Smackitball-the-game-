@@ -138,7 +138,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 1
   m_Flare: {fileID: 12100000, guid: 09ebe82dbd1113c3d000dc0b8d76c639, type: 2}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -651,7 +651,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: f570ef1a2d8c2814fae7c065bd4a6053, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -61.5
+      value: -61.6399994
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f570ef1a2d8c2814fae7c065bd4a6053, type: 3}
       propertyPath: m_LocalPosition.y
@@ -659,7 +659,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f570ef1a2d8c2814fae7c065bd4a6053, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 89.5999985
+      value: 86.2699966
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f570ef1a2d8c2814fae7c065bd4a6053, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1289,7 +1289,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
 --- !u!1 &332189729
 GameObject:
   m_ObjectHideFlags: 0
@@ -5999,6 +5999,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1deba3beb4f92e94b873c04f75f88bff, type: 2}
+    - target: {fileID: 100000, guid: 6fb03d4b89b0b48bb8a57bc05413c278, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: 6fb03d4b89b0b48bb8a57bc05413c278, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6fb03d4b89b0b48bb8a57bc05413c278, type: 2}
